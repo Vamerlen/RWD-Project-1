@@ -1,3 +1,136 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2F3035;
+    background-image: url("images/background-adare-restaurant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    /* Remove default body margin */
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    padding: 0 20px;
+    /* Add some padding for better readability */
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.338);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+main {
+    text-align: center;
+    padding: 80px 20px;
+    /* Adjust padding for better spacing */
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.728);
+    padding: 50px 20px;
+    /* Adjust padding for better spacing */
+}
+
 h1 {
-    color: aquamarine;
+    font-size: 48px;
+    /* Adjust font size for better readability on smaller screens */
+}
+
+p {
+    font-size: 16px;
+    /* Adjust font size for better readability on smaller screens */
+}
+
+a {
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    /* Adjust font size for better readability on smaller screens */
+    padding: 0 10px;
+}
+
+footer p {
+    font-size: 12px;
+    /* Adjust font size for better readability on smaller screens */
+    text-align: center;
+    color: rgb(198, 198, 198);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.maps {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    /* Adjust padding for better spacing */
+}
+
+.maps .map {
+    width: 55%;
+    height: 400px;
+}
+
+.maps .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.728);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1440px) {
+    body {
+        background-size: auto;
+        /* Adjust background size for better visibility on smaller screens */
+    }
+
+    nav {
+        line-height: 150%;
+    }
+
+    main {
+        padding: 60px 10px;
+        /* Adjust padding for better spacing on smaller screens */
+    }
+
+    h1 {
+        font-size: 36px;
+        /* Adjust font size for better readability on smaller screens */
+    }
+
+    p {
+        font-size: 14px;
+        /* Adjust font size for better readability on smaller screens */
+    }
+
+    .maps .map {
+        width: 100%;
+    }
+
+
 }
